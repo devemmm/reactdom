@@ -11,9 +11,6 @@ const Book = ({ book }) => {
       <img src={img} alt='' />
       <h1>{title}</h1>
       <h4>{author}</h4>
-      <button type='button' onClick={clickHandle}>
-        Thisi is a button
-      </button>
     </article>
   )
 }
